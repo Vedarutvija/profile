@@ -3,6 +3,10 @@ body {
   padding-left: 10%;
   padding-right: 10%;
 }
+.card-title{
+  font-weight: normal;
+}
+
 #profile{
   padding-left: 20%;
   flex-direction: row;
@@ -17,9 +21,6 @@ body {
 }
 #profile .card-text {
   margin: 0%;
-}
-.card-title{
-  font-weight: normal;
 }
 
 #container p {
@@ -39,10 +40,7 @@ body {
 ul{
   float:right;
 }
-.wrap-post {
-  display: grid;
-  border: none;
-}
+
 .wrap-pill {
   display: flex;
   border: none;
@@ -54,7 +52,7 @@ ul{
   flex-direction: row-reverse;
   padding-right: 46%;
 }
-
+.wrap-post
 
 /*profile*/
 
@@ -64,7 +62,7 @@ ul{
 }
 img {
   max-width: 120px;
-  max-height: 300px;
+  max-height: 125px;
 }
 
 .tc8A9 {
@@ -78,13 +76,6 @@ img {
 ._8-yf5 {
   display: block;
   position: relative;
-}
-
-
-.profile-stats {
-  float: right;
-  margin-right: 8%;
-  padding-right: 0%;
 }
 
 .profile-bio {
