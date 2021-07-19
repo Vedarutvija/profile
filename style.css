@@ -1,26 +1,32 @@
 body {
- 
   align-items: stretch;
   padding-left: 10%;
   padding-right: 10%;
- 
 }
-.container .profile .profile-img img {
-  border-radius: 100;
+#profile{
+  padding-left: 20%;
+  flex-direction: row;
+  border: none;
 }
-.container{
-  margin: left 1px;
+.card-body{
+ margin-left: 10%;
 }
+#profile img {
+  width: 150px;
+  height: 150px;
+}
+#profile .card-text {
+  margin: 0%;
+}
+.card-title{
+  font-weight: normal;
+}
+
 #container p {
   margin-bottom: 0%;
 }
-.btn{
-  position: relative;
-  float: right;
-}
-.threedot{
-margin-left: 100%;
-}
+
+
 /*grids and boxes*/
 .wrap-nav{
   display: grid;
@@ -59,20 +65,6 @@ ul{
 img {
   max-width: 120px;
   max-height: 300px;
-}
-
-div.wrap-pro > .profile-settings {
-  position: relative;
-  float: right;
-  padding-left: 0%;
-  margin-left: 0%;
-}
- div.profile-img > img {
-  border-radius: 50%;
-  max-width: 150px;
-  height: 150px;
-  padding: 3px;
-  border: 2px solid red;
 }
 
 .tc8A9 {
@@ -117,15 +109,6 @@ div.wrap-pro > .profile-settings {
   font-weight: bold;
 }
 /*highlights*/
-.topbar-profile-photo {
-  width: 1.5em;
-  height: 1.5em;
-  position: relative;
-  margin-left: 10%;
-  border-radius: 50%;
-  font-size: 1.6rem;
-  padding-left: 100%;
-}
 
 .story-profile-photo {
   width: 56px;
@@ -169,7 +152,7 @@ div.wrap-pro > .profile-settings {
   height: 10rem;
   margin-right: 0%;
   cursor: pointer;
-  margin-left: 8%;
+  margin-left: 10%;
 }
 
 /*navbar*/
@@ -179,4 +162,7 @@ body > nav {
   align-items: center;
   background-color: white;
   border-bottom: 100rem solid;
+  position: sticky;
+  top:0;
 }
+
